@@ -6,6 +6,9 @@
 
 // Aquí tu código
 
+var obj;
+obj = {a:{b:false, c:['', 1]}, d:5, f:'paka'};
+
 // Hasta aquí
 
 // TEST 1

@@ -33,3 +33,10 @@ let gente = [{
     },
 ]
 
+for (let index = 0; index < gente.length; index++) {
+    
+    if (gente.filter === 4) {
+        console.log(gente.nombre);
+    }
+    
+}

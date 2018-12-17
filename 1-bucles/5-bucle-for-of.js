@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+
+for (const x of gente) {
+    if (x.nombre[0] === 'J') {
+        console.log(x);
+    }
+}

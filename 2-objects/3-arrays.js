@@ -6,6 +6,8 @@
 
 // Aquí tu código
 
+var arr;
+arr = [{name:'pepito', age:25}, {name:'pepito', age:2, agex:1}, {age:0, name:'J'}];
 
 // Hasta aquí
 
@@ -46,33 +48,33 @@ if (arr[0].name === arr[1].name) {
     console.log('suspendes');
 }
 
-// TEST 6
+// TEST 7
 if (arr[1].name === 'pepito') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
 
-// TEST 7
+// TEST 8
 if (arr[1].age > arr[2].age) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-// TEST 8
+// TEST 9
 if (arr[0].age === 25) {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
-// TEST 9
+// TEST 10
 if (typeof arr[2].name === 'string') {
     console.log('apruebas');
 } else {
     console.log('suspendes');
 }
 
-// TEST 10
+// TEST 11
 if (arr[2].name[0] === 'J') {
     console.log('apruebas');
 } else {
