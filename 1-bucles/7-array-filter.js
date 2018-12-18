@@ -35,3 +35,7 @@ let gente = [{
     },
 ]
 
+const result = gente.filter(name => name.nombre[0] === 'J');
+const age = gente.filter(name => name.edad > 40);
+
+    console.log(age); 

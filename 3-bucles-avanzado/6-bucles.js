@@ -16,8 +16,14 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
 
-
-
+var dobleArr = [];
+var i = 0;
+for (const x of arr) {
+    console.log(x)
+    dobleArr[i] = x*2;
+    console.log(dobleArr)
+    i++;
+}
 
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);

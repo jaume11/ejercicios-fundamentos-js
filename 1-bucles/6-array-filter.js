@@ -33,10 +33,10 @@ let gente = [{
     },
 ]
 
-for (let index = 0; index < gente.length; index++) {
+
+
+	const result = gente.filter(name => name.nombre.length === 4);
+
+    console.log(result); 
+
     
-    if (gente.filter === 4) {
-        console.log(gente.nombre);
-    }
-    
-}
