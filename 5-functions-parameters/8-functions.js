@@ -8,8 +8,17 @@
 
 // Aquí tu código
 
-// Hasta aquí
+var convierteEurosEnPesetas = function conver(n) {
+    
+    if (typeof n === 'number') {
+        return n * 168;
+    }else {
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    }
+   
+}
 
+// Hasta aquí
 
 // TEST 1
 if (typeof convierteEurosEnPesetas === 'function' ) {
@@ -27,7 +36,7 @@ if ( convierteEurosEnPesetas(2) === 336) {
 // TEST 3
 let rnd = Math.random() * 10;
 if (convierteEurosEnPesetas(rnd) === rnd * 168) {
-    console.log('apruebas');
+    console.log('apruebas: '+rnd);
 } else {
     console.log('suspendes');
 }

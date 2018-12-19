@@ -8,9 +8,12 @@
 
 // Aquí tu código
 
+let convierteEurosEnPesetas = function convert(n) {
+    
+    return n * 168;
+}
 
 // Hasta aquí
-
 
 // TEST 1
 if (typeof convierteEurosEnPesetas === 'function' ) {
@@ -28,7 +31,7 @@ if ( convierteEurosEnPesetas(2) === 336) {
 // TEST 3
 let rnd = Math.random() * 10;
 if (convierteEurosEnPesetas(rnd) === rnd * 168) {
-    console.log('apruebas');
+    console.log('apruebas: ' + rnd);
 } else {
     console.log('suspendes');
 }

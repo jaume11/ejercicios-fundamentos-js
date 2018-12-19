@@ -10,6 +10,14 @@
 
 // Aquí tu código
 
+var muestraPorConsolaEurosEnPesetas = function mostrar(n) {
+    
+    console.log(n*168);
+
+    if (typeof n !== 'number') {
+        throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
+    }
+}
 
 // Hasta aquí
 
